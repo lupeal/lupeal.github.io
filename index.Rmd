@@ -1,0 +1,36 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Jeff's awesome website
+
+Here's a gif of elmo
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+
+You can add text
+
+* and lists
+
+* and extra bullets
+
+You can * FORMAT * AND ** BOLD? **
+
+YOU CAN also still use R!
+
+# Here's a new section
+
+My cat is Ted, this is Ted. 
+
+![](images/ted.jpg)
+
+Also here's the 'backstage' are in the Alumni Auditorium
+
+
+This a [link](https://www.google.com/) to a good datascience tool. Here's a link to [P8105](https://p8105.com/). Here's a link to the [about](about.html) page.
+
