@@ -6,8 +6,7 @@ output:
     toc_float: true
 ---
 
-### PhD Student in Biostatistics
-### Columbia University Mailman
+### PhD Student in Biostatistics, Columbia University Mailman
 
 <center>
 ![](images/senior_profile.jpg){width=30%}
@@ -19,15 +18,21 @@ I am a Biostatistics PhD student at Columbia University Mailman School of Public
 In May 2023, I obtained my B.A. from Mount Holyoke College, where I pursued a double major in Statistics and Psychology. I graduated Magna Cum Laude with induction into Mu Sigma Rho, the National Statistics Honor Society.
 
 
+---
+
+### Contact Information
+
+Lupe Antonio Lopez
+
+[Department of Biostatistics](https://www.publichealth.columbia.edu/academics/departments/biostatistics)
+[Columbia University, Mailman School of Public Health](https://www.publichealth.columbia.edu/)
+
+722 West 168th Street 
+New York, New York 10032
+
+Email: ga2612@columbia.edu
 
 
-# Here's a new section
-
-My cat is Ted, this is Ted. 
-
-![](images/ted.jpg)
-
-Also here's the 'backstage' are in the Alumni Auditorium
 
 
 This a [link](https://www.google.com/) to a good datascience tool. Here's a link to [P8105](https://p8105.com/). Here's a link to the [about](about.html) page.
