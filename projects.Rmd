@@ -1,0 +1,7 @@
+---
+title: "Projects"
+---
+
+### Projects Page
+
+can add plots, links, etc. 

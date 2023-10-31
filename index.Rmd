@@ -1,27 +1,23 @@
 ---
-title: "My awesome website"
+title: "Lupe Antonio"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# This is Jeff's awesome website
+# PhD Student in Biostatistics
+## Columbia University Mailman
 
-Here's a gif of elmo
-
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+![](images/senior_profile.jpg)
 
 
-You can add text
+I am a Biostatistics PhD student at Columbia University Mailman School of Public Health. Currently, I am involved in the Biostatistics Computing Club, where we hold sessions for all students.
 
-* and lists
+In May 2023, I obtained my B.A. from Mount Holyoke College, where I pursued a double major in Statistics and Psychology. I graduated Magna Cum Laude with induction into Mu Sigma Rho, the National Statistics Honor Society.
 
-* and extra bullets
 
-You can * FORMAT * AND ** BOLD? **
 
-YOU CAN also still use R!
 
 # Here's a new section
 
@@ -34,3 +30,5 @@ Also here's the 'backstage' are in the Alumni Auditorium
 
 This a [link](https://www.google.com/) to a good datascience tool. Here's a link to [P8105](https://p8105.com/). Here's a link to the [about](about.html) page.
 
+
+Copy & paste from class website site.yml topics for drop down menu. 
