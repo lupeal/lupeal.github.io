@@ -11,6 +11,8 @@ navbar:
       href: mailto:<ga2612@columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/lupeal
+    -icone: fab fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/lupeantonio
 output:
   html_document:
-    theme: cosmo
+    theme: flatly

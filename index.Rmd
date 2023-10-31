@@ -6,10 +6,12 @@ output:
     toc_float: true
 ---
 
-# PhD Student in Biostatistics
-## Columbia University Mailman
+### PhD Student in Biostatistics
+### Columbia University Mailman
 
-![](images/senior_profile.jpg)
+<center>
+![](images/senior_profile.jpg){width=30%}
+</center>
 
 
 I am a Biostatistics PhD student at Columbia University Mailman School of Public Health. Currently, I am involved in the Biostatistics Computing Club, where we hold sessions for all students.
