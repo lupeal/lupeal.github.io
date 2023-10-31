@@ -2,8 +2,45 @@
 title: "About"
 ---
 
-### About this site
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+A pdf copy of my resume is [here](Lupe_Antonio_Resume2023.pdf)
+
+
+
+### Education
+
+
+PhD in Biostatistics, Columbia University (incoming Fall 2023)
+
+BA in Statistics and Psychology, Mount Holyoke College (May 2023)
+
+
+
+
+### Awards
+
+Mu Sigma Rho, National Statistics Honor Society (inducted May 2023)
+
+Cobb Statistics Prize (2022)
+
+Mildred L. Sanderson Prize for Excellence in Mathematics (2020)
+
+
+
+
+### Experience
+
+- Research Fellow in Biostatistics Epidemiology Summer Training [(BEST)](https://www.publichealth.columbia.edu/research/programs/biostatistics-epidemiology-summer-training) program at Columbia University Mailman School of Public Health
+
+
+
+- Data Quality Intern at Southern California Edison
+
+
+
+- Grader & Teacher Assistant at Mount Holyoke College, Department of Mathematics & Statistics
+
+
+
+
