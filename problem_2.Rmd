@@ -1,5 +1,10 @@
 ---
 title: "problem_2"
+
+output:
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
 ```{r, message=FALSE, include = FALSE}
@@ -12,22 +17,14 @@ data("instacart")
 instacart <- instacart %>% as_tibble()
 ```
 
-```{r}
-#using my plot from hw3 
-instacart %>%
-  count(aisle) %>%
-  filter(n > 10000) %>%
-  mutate(aisle = fct_reorder(aisle, n)) %>%
-  ggplot(aes(x = aisle, y = n)) +
-  geom_point() +
-  ggtitle('Number of items ordered per aisle') +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
-```
 
+Column {data-width=650}
+-----------------------------------------------------------------------
 
-
+### Chart A
     
 ```{r}
+#first plot, using my plot from hw3
 instacart %>%
   count(aisle) %>%
   filter(n > 10000) %>%
@@ -40,8 +37,10 @@ instacart %>%
 ```
 
 
+Column {data-width=350}
+-----------------------------------------------------------------------
 
-
+### Chart B
 
 ```{r}
 #want to see the number/types of baking ingredients ordered in pantry department
@@ -56,4 +55,10 @@ instacart %>%
           type = 'bar', colors = 'viridis')
 ```
 
-  
+### Chart C
+
+```{r}
+
+```
+
+
