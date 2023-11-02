@@ -1,0 +1,45 @@
+---
+title: "problem_2"
+---
+
+```{r, message=FALSE, include = FALSE}
+#loading data
+library(p8105.datasets)
+library(tidyverse)
+library(plotly)
+data("instacart")
+
+instacart <- instacart %>% as_tibble()
+```
+
+```{r}
+#using my plot from hw3 
+instacart %>%
+  count(aisle) %>%
+  filter(n > 10000) %>%
+  mutate(aisle = fct_reorder(aisle, n)) %>%
+  ggplot(aes(x = aisle, y = n)) +
+  geom_point() +
+  ggtitle('Number of items ordered per aisle') +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+
+
+    
+```{r}
+instacart %>%
+  count(aisle) %>%
+  filter(n > 10000) %>%
+  mutate(aisle = fct_reorder(aisle, n),
+         text_label = str_c('Aisle: ', aisle,
+                            '\nItems Ordered:', n)) %>%
+  plot_ly(
+    x = ~aisle, y = ~n, type = 'scatter', mode = 'markers',
+    text = ~ text_label, alpha = 0.5)
+```
+
+
+
+
+  
