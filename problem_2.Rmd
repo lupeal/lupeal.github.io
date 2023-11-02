@@ -57,8 +57,15 @@ instacart %>%
 
 ### Chart C
 
-```{r}
 
+
+```{r}
+#want to see 5 aisles vs their order hour of day distribution
+instacart %>%
+  filter(aisle == 'ice cream ice' | aisle == 'candy chocolate' | aisle == 'baking ingredients' | aisle == 'soft drinks' | aisle == 'chips pretzels') %>%
+  plot_ly(y = ~order_hour_of_day, color = ~aisle,
+          type = 'box', colors = 'viridis')
 ```
+
 
 
