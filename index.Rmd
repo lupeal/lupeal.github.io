@@ -37,10 +37,3 @@ New York, New York 10032
 
 Email: ga2612@columbia.edu
 
-
-
-
-This a [link](https://www.google.com/) to a good datascience tool. Here's a link to [P8105](https://p8105.com/). Here's a link to the [about](about.html) page.
-
-
-Copy & paste from class website site.yml topics for drop down menu. 
