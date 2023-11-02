@@ -2,6 +2,5 @@
 title: "Projects"
 ---
 
-### Projects Page
 
-Here is a link to [problem 2](problem_2.Rmd). 
+- Here is a link to [problem 2](problem_2.Rmd). 
