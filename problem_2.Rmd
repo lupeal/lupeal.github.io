@@ -24,6 +24,25 @@ Column {data-width=650}
 ### Chart A
     
 ```{r}
+#want to see the number/types of baking ingredients ordered in pantry department
+instacart %>%
+  filter(department == 'pantry',
+         aisle == 'baking ingredients') %>%
+  group_by(product_name) %>%
+  count(product_name) %>%
+  #not sure why my fct_reorder doesn't work? I've had trouble applying it to other assignments too.
+#  mutate(product_name = fct_reorder(product_name, n, .desc = FALSE)) %>%
+  plot_ly(x = ~product_name, y = ~n, color = ~product_name,
+          type = 'bar', colors = 'viridis')
+```
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
 #first plot, using my plot from hw3
 instacart %>%
   count(aisle) %>%
@@ -37,26 +56,7 @@ instacart %>%
 ```
 
 
-Column {data-width=350}
------------------------------------------------------------------------
-
-### Chart B
-
-```{r}
-#want to see the number/types of baking ingredients ordered in pantry department
-instacart %>%
-  filter(department == 'pantry',
-         aisle == 'baking ingredients') %>%
-  group_by(product_name) %>%
-  count(product_name) %>%
-  #not sure why my fct_reorder doesn't work? I've had trouble applying it to other assignments too.
-#  mutate(product_name = fct_reorder(product_name, n, .desc = FALSE)) %>%
-  plot_ly(x = ~product_name, y = ~n, color = ~product_name,
-          type = 'bar', colors = 'viridis')
-```
-
 ### Chart C
-
 
 
 ```{r}
