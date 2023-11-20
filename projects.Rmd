@@ -3,4 +3,6 @@ title: "Projects"
 ---
 
 
-- Here is a link to [problem 2](problem_2.Rmd). 
+- Here is a link to [problem 2](problem_2.html). 
+
+- Created an Intro to $\LaTeX$ file for Columbia's Computing Club. Here is the [.tex](intro_to_latex_lupe.tex) file and [.pdf](intro_to_latex.pdf) file.
