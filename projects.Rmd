@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "<span style='font-size: 27px'>Projects</style>"
 ---
 
 
