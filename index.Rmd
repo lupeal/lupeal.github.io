@@ -1,9 +1,8 @@
 ---
-title: "<span style='font-size: 25px'>Lupe Antonio</style>"
+title: "<span style='font-size: 25px'>Lupe Antonio Lopez</style>"
 output: 
   html_document:
     toc: true
-    toc_float: true
 ---
 
 #### PhD Student in Biostatistics, Columbia University
