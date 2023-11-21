@@ -1,14 +1,14 @@
 ---
-title: "About"
+title: "<span style='font-size: 27px'>About</style>"
 ---
 
 
 
 A pdf copy of my resume is [here](Lupe_Antonio_Resume2023.pdf)
 
+$$\\[0.25cm]$$
 
-
-### Education
+#### Education
 
 
 - PhD in Biostatistics, Columbia University (incoming Fall 2023)
@@ -18,7 +18,7 @@ A pdf copy of my resume is [here](Lupe_Antonio_Resume2023.pdf)
 
 
 
-### Awards
+#### Awards
 
 - Mu Sigma Rho, National Statistics Honor Society (inducted May 2023)
 
@@ -29,7 +29,7 @@ A pdf copy of my resume is [here](Lupe_Antonio_Resume2023.pdf)
 
 
 
-### Experience
+#### Experience
 
 - Research Fellow in Biostatistics Epidemiology Summer Training [(BEST)](https://www.publichealth.columbia.edu/research/programs/biostatistics-epidemiology-summer-training) program at Columbia University
 
